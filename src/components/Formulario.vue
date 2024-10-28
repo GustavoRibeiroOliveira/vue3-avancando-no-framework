@@ -26,7 +26,6 @@ import { computed, defineComponent } from 'vue';
 import Temporizador from './Temporizador.vue';
 import { useStore } from '@/store';
 import { notificacaoMixin } from '@/mixins/notificar';
-import { TipoDeNotificacao } from '@/interfaces/INotificacao';
 
 export default defineComponent({
     name: 'Formulario',
